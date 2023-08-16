@@ -1,0 +1,142 @@
+body{
+  margin: 0;
+
+}
+
+:root{
+  font-family: Poppins, roboto;
+
+}
+
+
+
+.main-container{
+  display: flex;
+  margin-top: 200px;
+  margin-left: 200px;
+  margin-right: 500px;
+  flex-direction: column;
+  height: 1000px;
+  width: 380px;
+}
+
+.profile-pic{
+  border-radius: 10px 10px 0px 0px;
+  width: 380px;
+}
+
+.description-containter{
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  color: aliceblue;
+  background-color:#062646 ;
+  
+}
+
+.name-email{
+  margin-top: 25px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name{
+  font-size: 18px;
+  font-family: Poppins;
+  font-weight: 700;
+}
+.job-description{
+  font-size: 14px;
+  color: #bbd87c;
+  margin-top: 8px;
+}
+
+.email{
+  margin-top: 4px;
+  font-size: 10px;
+  font-style: italic;
+  cursor: pointer;
+}
+
+.job-email-icons {
+  display: flex;
+  padding-left: 36px;
+  padding-right: 36px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.job-email-icons a {
+  text-decoration: none; 
+  display: inline-block; 
+}
+
+
+
+.linkedIn-botton, .email-button{
+  color: rgb(11, 12, 13);
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  padding: 10px 25px;
+  font-size: 13px;
+  border-radius: 12px;
+}
+
+.linkedIn-botton{
+  background-color: hsl(222, 80%, 58%);
+  color: aliceblue;
+}
+
+
+.button-content {
+  display: flex;
+  align-items: center;
+  gap: 5px; 
+}
+
+
+
+
+.personal-info{
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 4px;
+  margin-left: 35px;
+}
+
+.personal-info>h3{
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.info{
+  font-size: 12px;
+  width: 300px;
+}
+
+
+.icon-link-container{
+  display: flex;
+  flex-direction: row;
+  color: aliceblue;
+  background-color: black;
+  height: 60px;
+  justify-content: space-between;
+  border-radius: 0px 0px 10px 10px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 15px;
+}
+
+
+.icon{
+  cursor: pointer;
+}
+
+
+
+
